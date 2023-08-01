@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Times New Roman", Times, serif;
-  border: white 1px solid;
 }
 body {
   background-image: image-set("Imagenes/Fondo.jpg");
