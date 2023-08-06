@@ -9,13 +9,13 @@
 body {
   background-image: image-set("Imagenes/Fondo.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 100vw 50vh;
   background-attachment: fixed;
   background-blend-mode: soft-light;
   background-color: rgba(0, 0, 0, 0.3);
 }
 .header {
-    z-index: 1000;
+    z-index: 3000;
     background: black;
     position: sticky;
     top: 0;
@@ -132,7 +132,7 @@ li{
     width: 100%;
     height: 200%;
     background: black;
-    top: 330%;
+    top: 333%;
     left: 0;
 }
 .carruh2{
@@ -142,21 +142,27 @@ li{
     color:white;
     margin-left: 10%;
 }
-.containe{
-    position: absolute;
-    top: 340%;
-    margin-left: 10%;
-}
 .carrusel{
-    position: absolute;
-    top: 350%;
+    z-index: 2000;
+    margin-top: 780%;
     display: flex;
     flex-wrap: nowrap;
     overflow: scroll;
 }
+
 .elemento{
+    z-index: 2000;
     flex: 1 0 auto;
-    margin: 0 20px;
-    width: 200px;
+    margin: 0 25px;
+    width: 350px;
     height: 200px;
+}
+.fondocarrus{
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    background: white;
+    opacity: 8%;
+    top: 353%;
+    left: 0;
 }
