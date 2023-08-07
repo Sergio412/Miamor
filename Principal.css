@@ -194,7 +194,7 @@ width: 300px;
 }
 .carrusel{
     z-index: 1;
-    margin-top: 800%;
+    margin-top: 820%;
     display: flex;
     flex-wrap: nowrap;
     overflow: scroll;
@@ -213,7 +213,7 @@ width: 300px;
     height: 40%;
     background: white;
     opacity: 8%;
-    top: 480%;
+    top: 450%;
     left: 0;
 }
 .descripcionC{
