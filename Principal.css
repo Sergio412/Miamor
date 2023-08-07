@@ -20,7 +20,7 @@
     }
 
     .header {
-        width: 100%;
+        width: 98%;
         height: 70px;
         position: fixed;
         top: 0;
@@ -168,7 +168,7 @@
 .fondoescrito {
     position: absolute;
     width: 100%;
-    height: 215%;
+    height: 295%;
     background: white;
     top: 150%;
     left: 0%;
@@ -181,20 +181,20 @@ width: 300px;
     width: 100%;
     height: 100%;
     background: black;
-    top: 333%;
+    top: 440%;
     left: 0;
 }
 .carruh2{
     position: absolute;
-    top: 335%;
-    width: 333px;
+    top: 440%;
+    width: 300px;
     color:white;
-    margin-left: 10%;
+    margin-left: 5%;
     border-bottom: solid 1px white ;
 }
 .carrusel{
     z-index: 1;
-    margin-top: 755%;
+    margin-top: 800%;
     display: flex;
     flex-wrap: nowrap;
     overflow: scroll;
@@ -210,10 +210,10 @@ width: 300px;
 .fondocarrus{
     position: absolute;
     width: 100%;
-    height: 25%;
+    height: 40%;
     background: white;
     opacity: 8%;
-    top: 344%;
+    top: 460%;
     left: 0;
 }
 .descripcionC{
@@ -222,8 +222,8 @@ width: 300px;
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position:absolute;
-    top: 370%;
-    left: 10%;
+    top: 505%;
+    left: 5%;
     width: 300px;
 }
 .sonido{
