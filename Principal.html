@@ -10,7 +10,14 @@
   </head>
 
   <body>
-    <audio class="sonido" src="Imagenes/y2mate.com - extreme  more than words español_320kbps.mp3" controls autoplay></audio>
+    <section class="Inicio" id="Inicio">
+      <audio
+        class="sonido"
+        src="Imagenes/y2mate.com - extreme  more than words español_320kbps.mp3"
+        controls
+        autoplay
+      ></audio>
+    </section>
     <header class="header">
       <div class="container">
         <div class="btn-menu">
@@ -21,7 +28,7 @@
         </div>
       </div>
     </header>
-    <section class="video">
+    <section class="video"id="video">
       <h1 class="personal" id="Section_personal">0</h1>
       <div class="fondovideo"></div>
       <div class="sectionvideo">
@@ -34,7 +41,7 @@
         <div class="video"></div>
       </div>
     </section>
-    <section class="escrito">
+    <section class="escrito" id="escritos">
       <h1 class="personal" id="Section_personal">0</h1>
       <div class="fondoescrito"></div>
       <div class="sectionescrito">
@@ -210,7 +217,7 @@
         </div>
       </div>
     </section>
-    <section>
+    <section class="carrusele" id="carrusele">
       <div class="fondocarru"></div>
       <div class="fondocarrus"></div>
       <div class="sectionescrito"></div>
@@ -276,20 +283,24 @@
           class="elemento"
         ></video>
       </div>
-      <p class="descripcionC">Mi Amor gracias por todos estos momentos, cada imagen tiene su historia y representan algun momento lindo que tuvimos.
-        La verdad no puedo esperar para tener mas momentos asi,ya sea viajando,dandonos cariño,yendo a lugares nuevos o yendo a los hoteles que nos faltan. </p>
+      <p class="descripcionC">
+        Mi Amor gracias por todos estos momentos, cada imagen tiene su historia
+        y representan algun momento lindo que tuvimos. La verdad no puedo
+        esperar para tener mas momentos asi,ya sea viajando,dandonos
+        cariño,yendo a lugares nuevos o yendo a los hoteles que nos faltan.
+      </p>
     </section>
     <!--JS MAIN-->
-    <script src="js/main.js"></script>}
+    <script src="js/main.js"></script>
     <!---->
-    <input type="checkbox" id="btn-menu">
+    <input type="checkbox" id="btn-menu" />
     <div class="container-menu">
       <div class="cont-menu">
         <nav>
-          <a href="#">Inicio</a>
-          <a href="#">Videitos notas</a>
-          <a href="#">Escrito</a>
-          <a href="#">Carrusel</a>
+          <a href="#Inicio">Inicio</a>
+          <a href="#video">Videitos notas</a>
+          <a href="#escritos">Escrito</a>
+          <a href="#carrusele">Carrusel</a>
           <a href="#">video mio</a>
           <a href="#">Ultimas palabras</a>
           <a href="#">Contactos para que me llames o contrates</a>
